@@ -1,0 +1,24 @@
+header .container {
+  width: 80%;
+  margin: 0 auto;
+}
+header .container ul li {
+  list-style-type: none;
+}
+header .container ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
