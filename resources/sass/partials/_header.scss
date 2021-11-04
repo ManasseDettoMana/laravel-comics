@@ -3,7 +3,7 @@ header{
         width: 80%;
         margin: 0 auto;
         ul{
-            
+            justify-content: space-between;
             li{
                 list-style-type: none;
                 a{
@@ -12,6 +12,10 @@ header{
                     text-transform: uppercase;
                 }
             }
+        }
+        #header_col_links{
+            // display: flex;
+            // align-items: center;
         }
     }
 }
