@@ -1,4 +1,26 @@
-.card{
-    width: 300px;
-    height: 300px;
+main{
+    background-color: #1c1c1c;
+    padding: 50px 0;
+    .carta{
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-bottom: 50px;
+        // padding: 20px;
+        .img_card{
+            width: 200px;
+            height: 200px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        h3{
+            color: white;
+        }
+        
+    }
 }
+
+
+

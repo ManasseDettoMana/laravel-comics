@@ -3,16 +3,15 @@
 @section('title', 'Comics')
 
 @section('content')
-    <div class="container">
-        <div class="row ">
+    <div class="container d-flex flex-wrap justify.content-center">
         @foreach($comic as $com)
-            <div class="card ">
-                <img src="{{$com['src']}}" alt="">
+            <div class="carta ">
+                <div class="img_card">
+                    <img src="{{$com['src']}}" alt="">
+                </div>
+                <h3>{{$com['text']}}</h3>
             </div>  
-            <h3>{{$com['text']}}</h3>
-
         @endforeach
-        </div>
     </div>
 @endsection
 
