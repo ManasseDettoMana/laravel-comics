@@ -3,10 +3,17 @@
 @section('title', 'Comics')
 
 @section('content')
-    
-    <h1>Comics</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi labore ratione sunt eveniet tempora ducimus fuga praesentium aspernatur ipsa corrupti. Corporis porro rem numquam sequi commodi autem magni quasi est!</p>
+    <div class="container">
+        <div class="row ">
+        @foreach($comic as $com)
+            <div class="card ">
+                <img src="{{$com['src']}}" alt="">
+            </div>  
+            <h3>{{$com['text']}}</h3>
 
+        @endforeach
+        </div>
+    </div>
 @endsection
 
 

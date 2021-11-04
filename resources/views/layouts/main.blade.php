@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    @include('partials.header', ['links'=> config('header_links')])
+    @include('partials.header', ['links' => config('header_links')])
 
     <main>
         @yield('content')
