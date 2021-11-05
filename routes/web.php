@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/comics', function () {
     $comic = config('comics_info');
     return view('comics',['comic' => $comic]);
-});
+})->name('comics');
